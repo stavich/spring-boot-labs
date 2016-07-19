@@ -1,1 +1,10 @@
 greeting: Hello
+info: # add this section
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
+endpoints: # add this section
+  health:
+    sensitive: false

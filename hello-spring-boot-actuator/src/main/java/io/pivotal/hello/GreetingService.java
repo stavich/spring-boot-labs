@@ -15,7 +15,7 @@ public class GreetingService {
     String greeting;
 
     public String getGreeting() {
-        //counterService.increment("counter.services.greeting.invoked");
+        counterService.increment("counter.services.greeting.invoked");
         return greeting;
     }
 }
